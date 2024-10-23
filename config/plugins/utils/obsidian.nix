@@ -4,8 +4,8 @@
     settings = {
       workspaces = [
         {
-          name = "SecondBrain";
-          path = "~/projects/personal/SecondBrain";
+          name = "Journal";
+          path = "~/Work/journal";
         }
       ];
       templates = {

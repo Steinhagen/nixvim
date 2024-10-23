@@ -57,14 +57,19 @@
             "fe"
           ]
           [
+            "󰙴 Ollama Chat"
+            "Ollama"
+            "co"
+          ]
+          [
             " Copilot Chat"
             "CopilotChat"
             "ct"
           ]
           [
-            "󰧑 SecondBrain"
-            "edit ~/projects/personal/SecondBrain"
-            "sb"
+            "󰷫 Journal"
+            "edit ~/Work/journal"
+            "wj"
           ]
         ];
         highlight = "string";

@@ -164,9 +164,9 @@
           bicep = {
             command = "${lib.getExe pkgs.bicep}";
           };
-          #yamlfmt = {
-          #  command = "${lib.getExe pkgs.yamlfmt}";
-          #};
+          yamlfmt = {
+            command = "${lib.getExe pkgs.yamlfmt}";
+          };
         };
       };
     };

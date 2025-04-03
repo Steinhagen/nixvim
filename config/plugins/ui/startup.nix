@@ -59,7 +59,7 @@
           [
             "󰙴 Ollama Chat"
             "Ollama"
-            "co"
+            "oc"
           ]
           [
             " Copilot Chat"
@@ -68,7 +68,7 @@
           ]
           [
             "󰷫 Journal"
-            "edit ~/Work/journal"
+            "edit ~/Documente/Journal"
             "wj"
           ]
         ];

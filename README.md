@@ -11,7 +11,7 @@ You can use this flake as an input:
 ```nix
 {
     inputs = {
-        nixvim.url = "github:dc-tec/nixvim"
+        nixvim.url = "github:Steinhagen/nixvim"
     };
 }
 ```
@@ -104,5 +104,6 @@ Please refer to the individual `.nix` files for more detailed configuration info
 
 This configuration has taken inspiration from the following contributors.
 
+- [dc-tec](https://github.com/dc-tec/nixvim)
 - [Elythh](https://github.com/elythh/nixvim)
 - [MikaelFangel](https://github.com/MikaelFangel/nixvim-config)

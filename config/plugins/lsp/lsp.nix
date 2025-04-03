@@ -22,13 +22,6 @@
         };
         nil_ls = {
           enable = true;
-          settings = {
-            formatting.command = [ "nixfmt" ];
-            nix.flake = {
-              autoArchive = true;
-              autoEvalInputs = true;
-            };
-          };
         };
         ts_ls = {
           enable = true;

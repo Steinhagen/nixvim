@@ -325,6 +325,14 @@
     }
     {
       mode = "n";
+      key = "<leader>qa";
+      action = "<cmd>qa!<cr>";
+      options = {
+        desc = "Force Quit All";
+      };
+    }
+    {
+      mode = "n";
       key = "<leader>qq";
       action = "<cmd>qa<cr>";
       options = {

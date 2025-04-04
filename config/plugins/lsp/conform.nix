@@ -83,6 +83,8 @@
             __unkeyed-2 = "prettier";
             stop_after_first = true;
           };
+          c = [ "clang-format" ];
+          cpp = [ "clang-format" ];
           css = {
             __unkeyed-1 = "prettierd";
             __unkeyed-2 = "prettier";

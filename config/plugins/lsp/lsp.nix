@@ -26,6 +26,12 @@
         ts_ls = {
           enable = true;
         };
+        clangd = {
+          enable = true;
+        };
+        cmake = {
+          enable = true;
+        };
         marksman = {
           enable = true;
         };
@@ -165,6 +171,20 @@
     require('lspconfig.ui.windows').default_options = {
       border = _border
     }
+
+    -- clang LSP
+    require("lspconfig").clangd.setup({
+      on_attach = function()
+        set_cmn_lsp_keybinds()
+      end,
+    })
+
+    -- cmake LSP
+    require("lspconfig").cmake.setup({
+      on_attach = function()
+        set_cmn_lsp_keybinds()
+      end,
+    })
 
     -- Rust LSP
     require("lspconfig").rust_analyzer.setup({

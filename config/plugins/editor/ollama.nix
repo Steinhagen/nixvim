@@ -3,6 +3,7 @@ _: {
     enable = true;
     model = "qwen2.5-coder:7b";
   };
+
   keymaps = [
     {
       mode = [
@@ -16,7 +17,6 @@ _: {
         desc = "Ollama prompt";
       };
     }
-
     {
       mode = [
         "n"
@@ -29,7 +29,6 @@ _: {
         desc = "Ollama explain code";
       };
     }
-
     {
       mode = [
         "n"
@@ -42,7 +41,6 @@ _: {
         desc = "Ollama generate code";
       };
     }
-
     {
       mode = [
         "n"

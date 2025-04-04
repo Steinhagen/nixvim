@@ -1,6 +1,7 @@
 _: {
   plugins.navic = {
     enable = true;
+    autoLoad = true;
     settings = {
       separator = "  ";
       highlight = true;

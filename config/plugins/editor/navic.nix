@@ -7,7 +7,7 @@ _: {
       highlight = true;
       depthLimit = 5;
       lsp = {
-        autoAttach = true;
+        auto_attach = true;
       };
       icons = {
         Array = "󱃵  ";

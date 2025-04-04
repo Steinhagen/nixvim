@@ -91,6 +91,7 @@ home-manager.users.<user>.home.packages = [
 
 ### Utils
 
+- `remote-nvim.nix`: Adds support for remote development and devcontainers.
 - `telescope.nix`: Configures the Telescope plugin for fuzzy finding and picking.
 - `whichkey.nix`: Configures the WhichKey plugin for displaying key mappings.
 - `extra_plugins.nix`: Configures additional plugins.

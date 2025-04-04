@@ -61,6 +61,7 @@ home-manager.users.<user>.home.packages = [
 
 ### Editor Plugins and Configurations
 
+- `comment.nix`: Smart and powerful commenting plugin for neovim.
 - `neo-tree.nix`: Configures the NeoTree file explorer.
 - `treesitter.nix`: Configures the TreeSitter syntax highlighter.
 - `undotree.nix`: Configures the UndoTree undo history visualizer.

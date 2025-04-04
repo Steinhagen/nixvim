@@ -38,6 +38,11 @@
         terraformls = {
           enable = true;
         };
+        rust-analyzer = {
+          enable = true;
+          installCargo = true;
+          installRustc = true;
+        };
         ansiblels = {
           enable = true;
         };
@@ -160,5 +165,22 @@
     require('lspconfig.ui.windows').default_options = {
       border = _border
     }
+
+    -- Rust LSP
+    require("lspconfig").rust_analyzer.setup({
+      root_dir = function(fname)
+        return vim.loop.cwd()
+      end,
+      settings = {
+        ['rust-analyzer'] = {
+          cargo = {
+            allFeatures = true,
+          },
+        },
+      },
+      on_attach = function()
+        set_cmn_lsp_keybinds()
+      end,
+    })
   '';
 }

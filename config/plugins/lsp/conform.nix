@@ -159,6 +159,9 @@
           bicep = {
             command = "${lib.getExe pkgs.bicep}";
           };
+          rustfmt = {
+            command = "${lib.getExe pkgs.rustfmt}";
+          };
           yamlfmt = {
             command = "${lib.getExe pkgs.yamlfmt}";
           };

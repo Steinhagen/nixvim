@@ -475,7 +475,7 @@
     }
     {
       mode = "n";
-      key = "<leader><tab>]";
+      key = "<leader><tab>l";
       action = "<cmd>tabnext<cr>";
       options = {
         desc = "Next Tab";
@@ -491,7 +491,7 @@
     }
     {
       mode = "n";
-      key = "<leader><tab>[";
+      key = "<leader><tab>h";
       action = "<cmd>tabprevious<cr>";
       options = {
         desc = "Previous Tab";

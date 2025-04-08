@@ -14,7 +14,7 @@
           offsets = [
             {
               filetype = "neo-tree";
-              text = "Neo-tree";
+              text = "File Explorer";
               highlight = "Directory";
               text_align = "left";
             }
@@ -25,24 +25,6 @@
   };
 
   keymaps = [
-    {
-      mode = "n";
-      key = "]b";
-      action = "<cmd>BufferLineCycleNext<cr>";
-      options = {
-        desc = "Cycle to next buffer";
-      };
-    }
-
-    {
-      mode = "n";
-      key = "[b";
-      action = "<cmd>BufferLineCyclePrev<cr>";
-      options = {
-        desc = "Cycle to previous buffer";
-      };
-    }
-
     {
       mode = "n";
       key = "<S-l>";

@@ -46,13 +46,14 @@ _: {
     ./plugins/git/gitsigns.nix
 
     # Utils
-    ./plugins/utils/remote-nvim.nix
     ./plugins/utils/telescope.nix
     ./plugins/utils/whichkey.nix
     ./plugins/utils/extra_plugins.nix
     ./plugins/utils/mini.nix
     ./plugins/utils/markdown-preview.nix
     ./plugins/utils/obsidian.nix
+    ./plugins/utils/remote-nvim.nix
+    ./plugins/utils/render-markdown.nix
     ./plugins/utils/toggleterm.nix
     ./plugins/utils/web-devicons.nix
   ];

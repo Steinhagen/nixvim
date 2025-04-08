@@ -91,13 +91,14 @@ home-manager.users.<user>.home.packages = [
 
 ### Utils
 
-- `remote-nvim.nix`: Adds support for remote development and devcontainers.
 - `telescope.nix`: Configures the Telescope plugin for fuzzy finding and picking.
 - `whichkey.nix`: Configures the WhichKey plugin for displaying key mappings.
 - `extra_plugins.nix`: Configures additional plugins.
 - `mini.nix`: Configures the Mini plugin.
 - `obsidian.nix`: Confiugres the Obsidian plugin, for note-taking purposes.
-- `markdown-preview.nix`: Configures the Markdown Preview plugin.
+- `remote-nvim.nix`: Adds support for remote development and devcontainers.
+- `render.nix`: Adds support for remote development and devcontainers.
+- `markdown-preview.nix`: Plugin to improve viewing Markdown files in Neovim.
 - `toggleterm.nix`: Configures Terminal plugin.
 
 Please refer to the individual `.nix` files for more detailed configuration information.

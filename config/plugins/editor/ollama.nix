@@ -1,7 +1,7 @@
 _: {
   plugins.ollama = {
     enable = true;
-    model = "qwen2.5-coder:7b";
+    model = "qwen3:8b";
   };
 
   keymaps = [

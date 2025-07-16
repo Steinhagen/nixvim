@@ -70,6 +70,7 @@ home-manager.users.<user>.home.packages = [
 - `todo-comments.nix`: Configures the Todo Comments plugin for highlighting TODO comments.
 - `copilot-chat.nix`: Configures the Copilot Chat plugin for interacting with GitHub Copilot.
 - `ollama.nix`: Configures the Ollama plugin for interacting with different models.
+- `avante.nix`: Configures the Avante plugin for interacting with different models.
 - `navic.nix`: Configures the Navic plugin, shows the current code context.
 
 ### UI Plugins

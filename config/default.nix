@@ -29,6 +29,7 @@ _: {
     ./plugins/editor/todo-comments.nix
     ./plugins/editor/copilot-chat.nix
     ./plugins/editor/ollama.nix
+    ./plugins/editor/avante.nix
     ./plugins/editor/navic.nix
 
     # UI plugins

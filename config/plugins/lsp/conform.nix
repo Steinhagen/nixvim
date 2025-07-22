@@ -83,7 +83,7 @@
             __unkeyed-2 = "prettier";
             stop_after_first = true;
           };
-          c = [ "clang-format" ];
+          c = [ "astyle" ];
           cpp = [ "clang-format" ];
           css = {
             __unkeyed-1 = "prettierd";
@@ -130,6 +130,10 @@
         };
 
         formatters = {
+          astyle = {
+            command = "${lib.getExe pkgs.astyle}";
+            prepend_args = [ "--style=linux" ];
+          };
           black = {
             command = "${lib.getExe pkgs.black}";
           };
